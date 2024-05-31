@@ -1,0 +1,332 @@
+/**************************HEADER********************************************/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Lato&display=swap');
+
+:root{
+    --Corfundo: #A3D989;
+    --Cor2:#85cc63;
+    --Corquad: #85bf6a;
+    --Cor3: #68bc40;
+    --Cor4: #539534;
+    --Cor5: #3e6f27;
+    --CorText:#262525;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Corfundo);
+    margin: auto;
+}
+
+header{
+    background-color: var(--Cor3);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    color: var(--CorText); 
+   
+}
+ h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+
+ul {
+    padding-left: 250px;
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin-right: 60px;   
+    color: var(--CorText);
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: var(--CorText);
+}
+
+
+/*************************************FIM HEADER*****************************************************/
+
+/************************************PARTE DOS CONTROLES***************************************/
+/*************************************CUSTOMIZAÇÕES GERAIS DE APARENCIA DO CORPO DA PÁGINA***********************************************/
+main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;   
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 800px;
+    
+}
+.cabeçalho{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+.bico {
+    
+    margin: 50px;
+    width: 500px;
+    height: 250px;
+    background-color: var(--Corquad); 
+    border-radius: 20px;  
+    
+}
+
+.bico h2{
+    margin: 23px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.bico  p {
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.bico img{
+    width: 65px;
+   padding-left: 13px;
+}
+.motor {
+    
+    margin: 50px;
+    width: 400px;
+    height: 200px;
+    background-color: var(--Corquad);   
+    border-radius: 20px;
+}
+
+.motor h2{
+    margin: 23px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.motor  p {
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.motor img{
+    width: 65px;
+   padding-left: 20px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    font-family: 'Lato', sans-serif;
+}
+/***************************************************************CUSTOMIZAÇÃO BOTOES*********************************************/
+/************************************************************BOTÃO DESLIZE BICO**************************************************/
+/*.toogle{
+    display: none;
+}
+.toogle + label{
+    width: 62px;
+    height: 32px;
+    background: var(--Corfundo);
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    padding: 2px;
+    transition: 200ms;
+    cursor: pointer;
+}
+.toogle + label:before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    display: block;
+    border-radius: 50%;
+    right: unset;
+    left: 4px;
+    top: 6px;
+    transition: 200ms;
+
+}
+.toogle:checked + label{
+    background: var(--CorText);   
+}
+.toogle:checked + label:before{
+    content: '';
+    left: calc(100% - 24px);
+    box-shadow: 0 4px 4px rgb(0, 0, 0 / 10%);
+}
+*/
+/**************************BOTÃO SLIDER CONTROLE MOTOR********************************/
+.slider{
+    -webkit-appearance: none;
+    width: 300px;
+    height: 20px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #262525;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    box-shadow:  0 0 0 0 rgba(6, 86, 35, 0.259);
+    transition: .3s ease-in-out;
+}
+
+.slider:active::-webkit-slider-thumb{
+    box-shadow:  0 0 0 5px rgba(6, 86, 35, 0.259);
+}
+
+/**************************BOTÃO SLIDER CONTROLE BICO SLIDE********************************/
+/*.slider2{
+    -webkit-appearance: none;
+    width: 200px;
+    height: 20px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #262525;
+}
+.slider2::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    box-shadow:  0 0 0 0 rgba(6, 86, 35, 0.259);
+    transition: .3s ease-in-out;
+}
+
+.slider2:active::-webkit-slider-thumb{
+    box-shadow:  0 0 0 5px rgba(6, 86, 35, 0.259);
+}
+*/
+/****************************************************CONTROLE BOTÃO LIGA DESLIGA BICO***********************************************/
+.button {
+    padding: 20px 10px 20px 9px;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: var(--Cor5);
+    border: none;
+    border-radius: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+   }
+   .button:active {
+     background-color: #0f8b8d;
+     box-shadow: 2 2px #CDCDCD;
+     transform: translateY(2px);
+   }
+/***********************************************************APRESENTAÇÃO PROJETO**************************************/
+
+/********************************************************************CORPO*****************************************************************/
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.apresentação h2{
+    display: flex;
+    color: var(--CorText);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 34px;
+    margin: 60px;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    color: var(--CorText);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    margin: 40px;
+    justify-content: center;
+}
+h3{
+    font-size: 22px;
+}
+
+.texto p{
+    display: flex;
+    color: var(--CorText);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    justify-content: center;
+    width: 1300px;
+    text-align: center;
+    padding-top: 15px;
+}
+/*************************************************************************************************************************************************/
+
+/**************************************************************CORPO AUTORES**********************************************/
+
+
+main{
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+.apresentação h2{
+    display: flex;
+    color: var(--CorText);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 34px;
+    margin: 70px;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    color: var(--CorText);
+    font-family: 'Bebas Neue', sans-serif;
+    justify-content: center;
+}
+h3{
+    font-size: 25px;
+    margin: -30px;
+}
+
+.image {
+    display: flex;
+    justify-content:center;
+}
+
+.image img{
+    width: 40%;
+    margin-top: 50px;
+    border-radius: 10%;
+    border: 7px solid var(--Cor3);
+    
+}
+/****************************************************************************************************************/

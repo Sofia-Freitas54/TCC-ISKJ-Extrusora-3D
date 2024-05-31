@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX_FILEMENT ISKJ</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:770px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (max-width:770px)" href="mobileprojec.css">
+    <link rel="stylesheet" media="screen and (max-width:770px)" href="mobileaut.css">
+    <link rel="icon" type="image/png" href="reciclado2.png">
+</head>
+<body>
+    <header>
+        <div class="exfilement">
+            <a href="index.html"><h1>EX_FILEMENT ISKJ</h1> </a>
+        </div>
+       <div class="menu">
+            <ul>
+                
+                <a href="index.html"><li>Home</li> </a>
+                <a href="controlebico.html"><li>Bico</li></a>
+                <a href="controlemotor.html"><li>Motor</li></a>
+
+            </ul>
+       </div>
+       
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="cabeçalho">
+                <h2>Controles</h2>
+            </div>
+
+            <div class="motor">
+                <h2>Velocidade motor <img src="icon veloc.png"></h2>
+                <p>Velocidade:<span id="sliderValue1"></span>&percnt;</p>
+                <input class="slider" type="range" onchange="updateSliderPWM(this)" id="slider1" min="0" max="100" step="1" value ="0">
+                
+            </div>
+        </div>
+        
+    </main>
+   
+    <script src="script.js"></script>
+</body>
+</html>

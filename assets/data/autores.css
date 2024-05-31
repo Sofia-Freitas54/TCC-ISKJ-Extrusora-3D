@@ -1,0 +1,99 @@
+/*******************************************************************************HEADER*********************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Lato&display=swap');
+:root{
+    --Corfundo: #A3D989;
+    --Cor2:#85cc63;
+    --Cor3: #68bc40;
+    --Cor4: #539534;
+    --Cor5: #3e6f27;
+    --CorText:#262525;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Corfundo);
+    max-width: 1920px;
+}
+
+header{
+    background-color: var(--Cor3);
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    align-items: center;
+    color: var(--CorText); 
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+
+ul {
+    padding-left: 250px;
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin-right: 60px;   
+    color: var(--CorText);
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--CorText);
+}
+/************************************************************************************************************************************************************************/
+/********************************************************************************************CORPO**********************************************/
+
+
+main{
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+.apresentação h2{
+    display: flex;
+    color: var(--CorText);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 34px;
+    margin: 70px;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    color: var(--CorText);
+    font-family: 'Bebas Neue', sans-serif;
+    justify-content: center;
+}
+h3{
+    font-size: 25px;
+    margin: -30px;
+}
+
+.image {
+    display: flex;
+    justify-content:center;
+}
+
+img {
+    width: 40%;
+    margin-top: 50px;
+    border-radius: 10%;
+    border: 7px solid var(--Cor3);
+    
+}
