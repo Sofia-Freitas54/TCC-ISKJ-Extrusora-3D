@@ -6,12 +6,12 @@
 
 
 ## Projeto ISKJ - extrusora de filamentos para impressora 3D
-Essa aplicação é o tema do TCC do curso em técnico em eletrônica que foi realizado pelos alunos, Izis, Sofia, Jhonny e Kamyla. O Objetivo do projeto é realizar um processo de reciclagem dupla, uma vez que a garrafa PET é o tipo de lixo que mais se encontra em rios e outras áreas da natureza e o filamento de impressoras 3D tem um curto elevado, além de utilizar vários recursos naturaus e maquinários para a sua fabricação.
+Essa aplicação é o tema do TCC do curso em técnico em eletrônica que foi realizado pelos alunos, Izis, Sofia, Jhonny e Kamyla. O Objetivo do projeto é realizar um processo de reciclagem dupla, uma vez que a garrafa PET é o tipo de lixo que mais se encontra em rios e outras áreas da natureza e o filamento de impressoras 3D tem um custo elevado, além de utilizar vários recursos naturais e maquinários para a sua fabricação.
 
 
 ## Tecnologias
 
-Aqui estão as tecnologias usadas nesse projeto
+Aqui estão as tecnologias usadas nesse projeto.
 
 * Arduino portable 1.8.19
 * HTML5
