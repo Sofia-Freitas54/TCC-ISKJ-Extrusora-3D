@@ -2,7 +2,7 @@
 #### TCC ensino técnico em eletrônica
 
 
-![Logo of the project]()
+![Logo of the project](https://github.com/Sofia-Freitas54/TCC-ISKJ-Extrusora-3D/blob/main/public/ex-filement%20Iskj.png)
 
 
 ## Projeto ISKJ - extrusora de filamentos para impressora 3D
